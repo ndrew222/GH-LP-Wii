@@ -1,0 +1,95 @@
+(footprint "Whammy Pot"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "WHAMMY_POT"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e08d6684-0ae0-4161-b0e7-5da120bc2290")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Whammy Pot"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e742af5d-a633-4d25-a5e8-8ca0852e2ef5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ddf8088-4c4e-4e16-aec1-25a034d4ab00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3496a0a3-30a7-4bf7-a3c6-7b54791fb93b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3 -12)
+		(end 2 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "9c32c4ed-3bb3-4de8-8d6b-8cf49afffed5")
+	)
+	(pad "1" thru_hole oval
+		(at -0.5 -10.5)
+		(size 1.905 1.27)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3f119e63-8869-4ab7-919c-7fa53de6a146")
+	)
+	(pad "2" thru_hole oval
+		(at -0.5 -7)
+		(size 1.905 1.27)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "45341829-3bc5-455c-a15e-dc274e25fb46")
+	)
+	(pad "3" thru_hole roundrect
+		(at -0.5 -3.5)
+		(size 1.905 1.27)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1968503937)
+		(uuid "e0a99bdf-5bc3-4fb9-8d39-80485fc5b157")
+	)
+	(embedded_fonts no)
+)
